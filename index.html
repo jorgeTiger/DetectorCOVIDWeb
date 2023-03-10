@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>Detector COVID</title>
+	<style>
+	* { font-family: Tahoma; font-size: 12pt; COLOR: black; background-color:lightsalmon }
+	b { font-weight: bold; }
+	table { height: 50%; border: 1px solid gray;}
+	td { text-align: center; padding: 25;}
+	</style>
+</head>
+<body>
+<center>
+<br><br><br><br>
+	<table>
+	<tr><td>Bienvenido a <b>detectorcovid.x10.mx</b></td></tr>
+	<tr><td><img src="coronavirus-hcov-oc43-fundacion-io-1024x1024.png" width="256" height="256"></td></tr>
+	</table>
+	<a href="index.html"><button type="button" style='margin-top:10; margin-left:-2; background-color:lightblue; border-width:0'>Inicio</button></a>
+	<a href="estadisticas.html"><button type="button" style='margin-top:10; margin-left:-2; background-color:lightblue; border-width:0'>Estadisticas</button></a>
+	<a href="sobreNosotros.html"><button type="button" style='margin-top:10; margin-left:-2; background-color:lightblue; border-width:0'>Sobre Nosotros</button></a>
+	<h1>Inicia Sesion</h1>
+	<form onSubmit="auth.php" action="perfil.php" method="GET">
+    Correo Electronico: <input type="email" id="correo" size=28 name="correo" style='margin-left:5'>
+    <br>
+    Password: <input type="password" id="password" name="password" style='margin-top: 5; margin-left:5'>
+    <br>
+    <button type="submit" style='margin-top:10; margin-left:-2; background-color:lightblue; border-width:0'>Entrar</button>
+    <br>
+    <a href="medico.html"><p>Entrar como medico</p></a>
+    <p>No tienes cuenta?</p>
+    <a href="registroUsuario.html"><p>Registrate</p></a>
+    </form>
+<br><br>
+</center>
+</body>
+
+</html>
